@@ -41,6 +41,14 @@ body {
     color: #003366;
 }
 
+.menu-opcoes a:hover {
+    color: red;
+}
+
+.menu-opcoes a:active {
+    color:green;
+}
+
 section {
     margin-top: 10px;
     display: flex;
@@ -95,6 +103,22 @@ input[type="search"] {
 .menu-departamentos li a {
     color: #333333;
     text-decoration: none;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: #dcdcdc;
+}
+
+.menu-departamentos li li a::before {
+    content: '-';
 }
 
 .painel {
