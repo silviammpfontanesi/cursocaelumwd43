@@ -125,6 +125,8 @@ input[type="search"] {
     margin: 10px 0;
     padding: 10px;
     width: 445px;
+    box-shadow: 1px 1px 4px #999;
+    border-radius: 4px;
 }
 
 .painel h2 {
@@ -132,6 +134,7 @@ input[type="search"] {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-shadow: 3px 3px 2px rgba(255,255,255,0.8);
 }
 
 .painel ol {
@@ -153,11 +156,14 @@ input[type="search"] {
 }
 
 .novidades {
-    background-color: #f5dcdc;
+    /*background: linear-gradient(#f5dcdc,#bebef4);*/
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    /*background-color: #f5dcdc;*/
 }
 
 .mais-vendidos {
-    background-color: #dcdcf5;
+    background: radial-gradient(#bebef4, #f5dcdc);
+    /*background-color: #dcdcf5;*/
 }
 
 footer {
